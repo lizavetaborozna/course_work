@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="793d4525-6f87-49cb-b955-a501ecd65da2" name="Default Changelist" comment="" />
+    <list default="true" id="793d4525-6f87-49cb-b955-a501ecd65da2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,36 +150,36 @@
               <ID>DATABASE</ID>
               <OriginalElement>13e3d8b3-66bb-479a-9f58-0c6b50b6be15.SCHEMA:bookshop</OriginalElement>
               <nodes>
-                <node x="97.0" y="376.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.orderitems</node>
-                <node x="187.0" y="188.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.order</node>
-                <node x="260.0" y="0.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.user</node>
-                <node x="334.0" y="166.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.card</node>
-                <node x="0.0" y="166.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.book</node>
+                <node x="147.0" y="166.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.card</node>
+                <node x="168.5" y="376.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.orderitems</node>
+                <node x="330.0" y="166.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.book</node>
+                <node x="73.0" y="0.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.user</node>
+                <node x="0.0" y="188.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.order</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.order" target="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.user">
                   <point x="0.0" y="-58.0" />
-                  <point x="250.5" y="141.0" />
-                  <point x="296.5" y="141.0" />
+                  <point x="63.5" y="141.0" />
+                  <point x="109.5" y="141.0" />
                   <point x="-36.5" y="58.0" />
                 </edge>
                 <edge source="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.orderitems" target="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.order">
-                  <point x="35.0" y="-36.0" />
-                  <point x="202.0" y="351.0" />
-                  <point x="250.5" y="351.0" />
+                  <point x="-35.0" y="-36.0" />
+                  <point x="203.5" y="351.0" />
+                  <point x="63.5" y="351.0" />
                   <point x="0.0" y="58.0" />
                 </edge>
                 <edge source="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.card" target="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.user">
                   <point x="0.0" y="-80.0" />
-                  <point x="415.5" y="141.0" />
-                  <point x="369.5" y="141.0" />
+                  <point x="228.5" y="141.0" />
+                  <point x="182.5" y="141.0" />
                   <point x="36.5" y="58.0" />
                 </edge>
                 <edge source="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.orderitems" target="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.book">
-                  <point x="-35.0" y="-36.0" />
-                  <point x="132.0" y="351.0" />
-                  <point x="83.5" y="351.0" />
+                  <point x="35.0" y="-36.0" />
+                  <point x="273.5" y="351.0" />
+                  <point x="413.5" y="351.0" />
                   <point x="0.0" y="80.0" />
                 </edge>
               </edges>
@@ -220,6 +223,9 @@
       <find>c</find>
       <find>getOrderItemForAllUser</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -285,7 +291,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1220" />
     <option name="height" value="715" />
@@ -295,96 +301,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
@@ -399,7 +322,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,6 +331,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553883141921" />
@@ -559,11 +482,12 @@
       <workItem from="1554210079462" duration="170000" />
       <workItem from="1554215283469" duration="433000" />
       <workItem from="1554243894506" duration="506000" />
+      <workItem from="1554244848075" duration="250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82070000" />
+    <option name="totallyTimeSpent" value="82320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,7 +501,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.29060403" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2946309" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.2557047" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -593,7 +517,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -1103,36 +1027,36 @@
           <ID>DATABASE</ID>
           <OriginalElement>13e3d8b3-66bb-479a-9f58-0c6b50b6be15.SCHEMA:bookshop</OriginalElement>
           <nodes>
-            <node x="97.0" y="376.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.orderitems</node>
-            <node x="187.0" y="188.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.order</node>
-            <node x="260.0" y="0.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.user</node>
-            <node x="334.0" y="166.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.card</node>
-            <node x="0.0" y="166.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.book</node>
+            <node x="147.0" y="166.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.card</node>
+            <node x="168.5" y="376.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.orderitems</node>
+            <node x="330.0" y="166.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.book</node>
+            <node x="73.0" y="0.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.user</node>
+            <node x="0.0" y="188.0">13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.order</node>
           </nodes>
           <notes />
           <edges>
             <edge source="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.order" target="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.user">
               <point x="0.0" y="-58.0" />
-              <point x="250.5" y="141.0" />
-              <point x="296.5" y="141.0" />
+              <point x="63.5" y="141.0" />
+              <point x="109.5" y="141.0" />
               <point x="-36.5" y="58.0" />
             </edge>
             <edge source="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.orderitems" target="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.order">
-              <point x="35.0" y="-36.0" />
-              <point x="202.0" y="351.0" />
-              <point x="250.5" y="351.0" />
+              <point x="-35.0" y="-36.0" />
+              <point x="203.5" y="351.0" />
+              <point x="63.5" y="351.0" />
               <point x="0.0" y="58.0" />
             </edge>
             <edge source="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.card" target="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.user">
               <point x="0.0" y="-80.0" />
-              <point x="415.5" y="141.0" />
-              <point x="369.5" y="141.0" />
+              <point x="228.5" y="141.0" />
+              <point x="182.5" y="141.0" />
               <point x="36.5" y="58.0" />
             </edge>
             <edge source="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.orderitems" target="13e3d8b3-66bb-479a-9f58-0c6b50b6be15.TABLE:bookshop.book">
-              <point x="-35.0" y="-36.0" />
-              <point x="132.0" y="351.0" />
-              <point x="83.5" y="351.0" />
+              <point x="35.0" y="-36.0" />
+              <point x="273.5" y="351.0" />
+              <point x="413.5" y="351.0" />
               <point x="0.0" y="80.0" />
             </edge>
           </edges>
