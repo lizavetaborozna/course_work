@@ -1,0 +1,38 @@
+html {
+    background-image: url("https://media.istockphoto.com/vectors/seamless-education-and-books-background-vector-id471165800");
+    cursor: pointer;
+}
+
+body {
+    background-color: #009fae;
+    font-family: Сomic Sans MS;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
+
+.frm{
+    max-width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.im{
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.btn{
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.sing{
+    margin-right: 10px;
+}

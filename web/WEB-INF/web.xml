@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>AuthorizationServlet</servlet-name>
+        <servlet-class>servlets.AuthorizationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthorizationServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>logFilter</filter-name>
+        <filter-class>filter.AuthorizationFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>logFilter</filter-name>
+        <url-pattern>/admin/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>logFilter</filter-name>
+        <url-pattern>/user/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>ExitServlet</servlet-name>
+        <servlet-class>servlets.LogOutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExitServlet</servlet-name>
+        <url-pattern>/logOut</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UserCatalogServlet</servlet-name>
+        <servlet-class>servlets.UserCatalogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserCatalogServlet</servlet-name>
+        <url-pattern>/user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserCartServlet</servlet-name>
+        <servlet-class>servlets.UserCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserCartServlet</servlet-name>
+        <url-pattern>/user/cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserOrderServlet</servlet-name>
+        <servlet-class>servlets.UserOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserOrderServlet</servlet-name>
+        <url-pattern>/user/order</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserOrderAddServlet</servlet-name>
+        <servlet-class>servlets.UserOrderAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserOrderAddServlet</servlet-name>
+        <url-pattern>/user/order/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserOrderDeleteServlet</servlet-name>
+        <servlet-class>servlets.UserOrderDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserOrderDeleteServlet</servlet-name>
+        <url-pattern>/user/order/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>servlets.AdminOrdersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminOrderDeleteServlet</servlet-name>
+        <servlet-class>servlets.AdminOrderDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminOrderDeleteServlet</servlet-name>
+        <url-pattern>/admin/delete</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminOrderChangeServlet</servlet-name>
+        <servlet-class>servlets.AdminOrderChangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminOrderChangeServlet</servlet-name>
+        <url-pattern>/admin/change</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminLookingUsersServlet</servlet-name>
+        <servlet-class>servlets.AdminLookingUsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLookingUsersServlet</servlet-name>
+        <url-pattern>/admin/users</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminUsersDeleteServlet</servlet-name>
+        <servlet-class>servlets.AdminUsersDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminUsersDeleteServlet</servlet-name>
+        <url-pattern>/admin/users/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserCardServlet</servlet-name>
+        <servlet-class>servlets.UserCardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserCardServlet</servlet-name>
+        <url-pattern>/user/card</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UserAddCardServlet</servlet-name>
+        <servlet-class>servlets.UserAddCardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserAddCardServlet</servlet-name>
+        <url-pattern>/user/card/add</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
